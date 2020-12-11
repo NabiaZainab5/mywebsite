@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        h3,
+        h4 {
+            color: whitesmoke;
+        }
+
+        h4 {
+            font-size: 19px;
+        }
+        .m{
+            color: blue;
+            font-size: 100px;
+            text-align: center;
+        }
+        .m2{
+            color:black;
+            font-size: 70px;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+
+        .nav {
+            background-color: rgb(10, 14, 11);
+            height: 60px;
+            width: 1280px;
+        }
+
+        .logo {
+            background-color: rgb(10, 14, 11);
+            margin-left: 20px;
+            padding: 8px;
+            float: left;
+        }
+
+        .navlist {
+            background-color: rgb(10, 14, 11) width: 400px;
+            margin-left: 300px;
+            height: 60px;
+        }
+
+        .navlist>ul>li {
+            list-style: none;
+            display: inline-block;
+            padding: 18px;
+            margin: 4px;
+        }
+
+        .navlist>ul>li>a {
+            text-decoration: none;
+        }
+
+        .navlist>ul>li:hover {
+            background-color: blue;
+            color: black;
+        }
+
+        body {
+            background-color: black
+        }
+
+        .img {
+            height: 572px;
+            width: 1278px;
+        }
+    </style>
+    <style>
+        .bod2 {
+            background-color: blacl;
+            height: 300px;
+            width: 1273px;
+        }
+
+        .text1 {
+            height: 300px;
+            width: 400px;
+            text-align: left;
+            float: left;
+            margin-left: 150px;
+            color: white;
+            background-color: blue;
+        }
+
+        .img1 {
+            float: left;
+        }
+
+        .btn1 {
+            border-radius: 15px;
+            border-width: 5px;
+            border-style: groove;
+            border-color: blue;
+            height: 60px;
+            width: 170px;
+        }
+        .btn1:hover{
+         background-color: blue;
+         color: white;
+        }
+    </style>
+    <style>
+        .bod3 {
+            height: 300px;
+            width: 1273;
+            background-color: black;
+        }
+
+        .text2 {
+            height: 300px;
+            width: 400px;
+            float: left;
+            margin-left: 150px;
+            color: white;
+            background-color: blue;
+        }
+
+        .img2 {
+            float: left;
+        }
+
+        .btn2 {
+            border-radius: 15px;
+            border-width: 5px;
+            border-style: groove;
+            border-color: brown;
+            height: 50px;
+            width: 160px;
+        }
+        }
+    </style>
+    <style>
+        .main3 {
+            width: 1280px;
+            height: 400px;
+            background-color: black;
+        }
+
+        .p1 {
+            transition: transform.2s;
+            width: 420px;
+            height: 300px;
+            float: left;
+            background-image: url(pic2.jpg);
+            background-repeat: no-repeat;
+        }
+
+        .p1:hover {
+            transform: scale(1.2);
+        }
+
+        .i1>a {
+            text-decoration: none;
+        }
+
+        .p2 {
+            width: 425px;
+            height: 300px;
+            float: left;
+            background-image: url(pic3.jpeg);
+            background-repeat: no-repeat;
+            transition: transform.2s;
+        }
+
+        .p2:hover {
+            transform: scale(1.2);
+        }
+
+        .i2>a {
+            text-decoration: none;
+        }
+
+        .p3 {
+            width: 425px;
+            height: 300px;
+            float: left;
+            background-image: url(pic3.jpg);
+            background-repeat: no-repeat;
+            transition: transform.2s;
+        }
+
+        .p3:hover {
+            transform: scale(1.2);
+        }
+
+        .i3>a {
+            text-decoration: none;
+        }
+
+        .i1 {
+            width: 90px;
+            height: 90px;
+            background-color: red;
+            border-radius: 50%;
+            text-align: center;
+            margin-left: 160px;
+            margin-top: 70px;
+        }
+
+        .i2 {
+            width: 90px;
+            height: 90px;
+            background-color: red;
+            border-radius: 50%;
+            text-align: center;
+            margin-left: 160px;
+            margin-top: 70px;
+        }
+
+        .i3 {
+            width: 90px;
+            height: 90px;
+            background-color: red;
+            border-radius: 50%;
+            text-align: center;
+            margin-left: 160px;
+            margin-top: 50px;
+        }
+    </style>
+    <style>
+        .rug{
+            height: 700px;
+            width: 1200px;
+            background-color: whitesmoke;
+            border-color:black;
+            border-radius: 50px;
+            border-style: dashed;
+        }
+        .r1{
+            margin-left: 200px;
+            color:black;
+            float: left;
+        }
+        .r2{
+             margin-left: 200px;
+            color:black;
+            float: left;
+        }
+         .r3{
+             margin-left: 200px;
+            color: black;
+            float: left;
+            margin-top: 30px;
+        }
+        .r4{
+             margin-left: 200px;
+            color: black;
+            float: left;
+            margin-top: 30px;
+        }
+        .d2{width: 350px; height: 300px;  float: left; margin-left: 100px; margin-top: 80px;}
+		.ql{width: 200px; height: 300px;  float: left;margin-left: 100px; margin-top: 80px;}
+		.fc{float: left;}
+		.net{float: left; margin-left: 20px;}
+		.i{float: left; margin-left: 20px; }
+		.fh{float: left;margin-left: 20px; }
+    </style>
+    <style>
+        .link{
+            text-decoration: none;
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h3>Incredible <br> &nbsp Carpets</h2>
+        </div>
+        <div class="navlist">
+            <ul>
+                <li><a href="index.html">
+                        <h4>Home</h4>
+                    </a></li>
+                <li><a href="#ru">
+                    <h4>Categories</h4>
+                    </a></li>
+                <li><a href="contact.html">
+                        <h4>Contact</h4>
+                    </a></li>
+                <li><a href="about.html">
+                        <h4>About</h4>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="pic1.jpg" height="572px" width="1278px">
+    </div>
+    <!--main-->
+    <center>
+        <hr width="500px" color="red" size="5px">
+    </center><br><br>
+    <div class="main3">
+
+              <h1 class="m2"><center>SPECIAL DISCOUNT</center></h1>
+        <br><br>
+        <div class="p1">
+            <div class="i1">
+                <font size="5px" color="white"><br>$12</font>
+                <a href="buy.html">
+                    <font size="5" color="white"><b>
+                            <center><br><br>NYLON CARPETS</center>
+                        </b></font>
+                </a>
+            </div>
+        </div>
+        <div class="p2">
+            <div class="i2">
+                <font size="5px" color="white"><br>$12</font>
+                <a href="buy.html">
+                    <font size="5" color="white"><b>
+                            <center><br><br>POLYESTER CARPETS</center>
+                        </b></font>
+                </a>
+            </div>
+        </div>
+        <div class="p3">
+            <div class="i3">
+                <font size="5px" color="white"><br>$12</font>
+                <a href="buy.html">
+                    <font size="5" color="white"><b><br><br><br>
+                            <center>SMARTSTAND CARPETS</center>
+                        </b></font>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--bod2-->
+    <br><br><br>
+    <h1 class="m">TOP SALE</h1>
+    <center>
+        <hr width="500px" color="red" size="5px">
+    </center><br>
+    <div class="bod2">
+        <div class="text1">
+            <h1> <br><br>
+                <center>Hand knotted table mat traditional design.</center>
+            </h1><br><br>
+            <center><a href="buy.html"><button class="btn1">
+                        <H1>BUY NOW</H1>
+                    </button></a></center>
+        </div>
+
+        <div class="img1">
+            <img src="pic1.png" height="300px" width="500px">
+
+        </div>
+    </div>
+    <!--text with pic 2-->
+    <div class="bod3">
+        <div class="text2">
+            <h1> <br><br>
+                <center>Hand knotted table mat traditional design.</center>
+            </h1><br>
+            <br>
+            <center><a href="buy.html"><button class="btn1">
+                        <H1>BUY NOW</H1>
+                    </button></a></center>
+        </div>
+
+        <div class="img2">
+            <img src="img2.jpg" height="300px" width="500px">
+
+        </div>
+    </div>
+     
+    <!--categories--><br>
+    <br>
+    <center>
+        <hr width="500px" color="red" size="5px">
+    </center>
+   <h1 class="m2" id="ru">Categories</h1><br><br>
+   <center>
+    <div class="rug">
+    
+        <br>
+        <a href="rug.html"><div class="r1"><img src="ra.png" height="250px" width="300ox">
+       <h1> &nbsp &nbsp<u>RUGS CARPETS</u></h1>
+   </div></a>
+    <a href="lam.html"><div class="r2"><img src="lam1.jpg" height="250px" width="300px">
+    <h1><u>LAMINATE FLOOR </u></h1>
+     </div></a>
+      <a href="grass.html"><div class="r3"><img src="grass1.jpg" height="250px" width="300px">
+    <h1><u>ARTIFICIAL GRASS</u></h1>
+     </div></a>
+      <a href="tile.html"><div class="r4"><img src="tile1.jpg" height="250px" width="300px">
+    <h1>&nbsp  <u>CARPET TILE</u></h1>
+     </div></a>
+     </div>
+</center>
+<!--footer-->
+<div class="d2"><font size="5px" color="white"><b>Opening Hours</b></font><br><br><font size="3" color="silver"><b>Sunday-Thursday<br>5AM-10PM</b></font><br><br><font size="5" color="white"><b>Contact Info</b></font><br><br><font size="5px" color="silver"><b>Address:</b></font><br><font size="3" color="white"><b> 34 Street Name, City Name Here, United States</b></font>
+ 		<br><br><font size="5" color="whitesmoke"><b>Telephone:</b><br>+12424042290</font><br><br><br><font size="5px" color="silver">
+ 	</div>
+ 	<div class="ql"><font size="5px" color="white"><b>Quick Links</b></font><br><br><font size="3" color="red"><b><a href="index.html" class="link">Home</a></b></font><br><br><font size="3" color="red"><b><a href="#ru" class="link">Categories</a></b></font><br><br><font size="3" color="red"><b><a href="contact.html" class="link"> Contact</a></b></font><br><br><font size="3" color="red"><b><a href="about.html" class="link">About</a></b></font></div>
+ </div>
+</body>
+
+</html>
